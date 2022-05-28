@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="assets/css/style.css" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <script src="./assets/jquery/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    
+    <div class="container bg-light col-xl-3 col-md-5 col-md-offset-6 rounded tab">
+        <form class="form-box form-step-active ">
+          
+            <img class="icon-left d-flex justify-content-start mx-2 pt-4" src="./assets/images/left-icon.svg" alt="" width="20">
+            <img class="mx-auto d-block mt-5 pt-3 img-fluid img-responsive" src="./assets/images/EnterOTP-cuate.svg" alt="" height="250" width="250">
+                  <div class="mx-5 mt-4 pt-2">
+                        <p class="phone-number-label fw-bol" >شماره موبایل</p>
+                        <select class="custom-select bg-light mx-2" name="" id="">
+                          <option value="IR">+98</option>
+                          <option value="IR">+98</option>
+                        </select>
+                        
+                        <input id="validate-number" type="number" class="form-control bg-light sample-number mx-auto" maxlength=10 id="ec-mobile-number" aria-describedby="emailHelp" placeholder=" مثال  9171112233" /> 
+                  </div>
+                    <br>
+                  <div class="text-center fw-bold">
+                    <span  id="short-value"></span>
+                  </div>
+
+              <div class="rounded-circle next-step text-center mx-auto mt-5 form-step-active" id="submit">
+                <img class="my-auto mt-3" src="./assets/images/rihgt-icon.svg" alt="">
+              </div>
+        </form>
+    </div>
+
+ <div class="container bg-light col-xl-3 col-md-5 col-md-offset-6 rounded tab">
+        <form class="form-box form-step" id="lookup">
+          
+         <div class="d-flex justify-content-between pt-4">
+            <img class="icon-left mx-3" src="./assets/images/left-icon.svg" alt="" width="20">
+            <span class="support pt-1 mx-3">تماس با پشتیبانی</span>
+         </div>
+
+            <div class="mt-2 pt-5">
+              <div class="rounded-circle text-center mx-auto mt-3 circle">
+                <img class="mx-auto d-block mt-4 img-fluid pt-4" src="./assets/images/envelope.png" alt="" width="80">
+              </div>
+            </div>
+
+              <p class="text-warning fs-6 fw-bold text-center mt-3">تایید شماره موبایل</p>
+              <p class="phone-number text-center mt-4" >شماره موبایل</p>
+              <p class="digit-number text-center fw-bold">9171112233</p>
+              <p class="activation-code mx-3">کد فعالسازی</p>
+         
+              <div class="verification-code">
+                <div class="verification-code--inputs rounded">
+                  <input type="text" maxlength="1" />
+                  <input type="text" maxlength="1" />
+                  <input type="text" maxlength="1" />
+                  <input type="text" maxlength="1" />
+                  <input type="text" maxlength="1" />
+                  <input type="text" maxlength="1" />
+                </div>
+              </div>
+              <p class="code-again text-warning mt-4 fw-bold">40 ثانیه تا ارسال مجدد کد </p>
+                  <div class="text-center">
+                    <button class="btn btn-default text-warning fw-bold btn-code mt-3">ارسال مجدد کد تایید</button>
+                  </div>
+        </form>
+    </div>
+    
+<script src="./main.js" defer></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
